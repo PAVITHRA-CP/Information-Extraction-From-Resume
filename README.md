@@ -1,4 +1,4 @@
-# Resume-block-Identification
+# Resume-Information-Extraction
 Corporate firms and enlisting agencies process varied profiles daily. This is often no task for humans. An automatic
 intelligent system is needed which may put off all the very important info from the unstructured profile and rework all
 of them to a standard structured format. To realize additional attention from the recruiters, most profiles are written in
