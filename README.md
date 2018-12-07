@@ -25,6 +25,7 @@ The e-mails and phone numbers are also extracted using regular expression.
 
 Prototype for block identification based on capitalized headings is given below. The python code for
 the same is attached with the document.
+
       for each lines in documents do
             for each words in lines do
                   if words matches with keywords or words font size greater than content font size then
