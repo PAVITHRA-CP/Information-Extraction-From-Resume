@@ -11,3 +11,17 @@ a three step approach for information extraction from profile by,
       [3] Multi-class classifier to predict different segments of a profile. 
       
 Bernoulli Naive Bayes Classifier is used as classification algorithm for prediction.
+# Block Identification
+In Block Identification step, it segments the resume into different sections on basis of headings and its contents.
+The headings can be identified by different font size with respect to the content or by keyword based extraction.
+Synonyms of the keyword are also considered in case of keyword based extraction. 
+
+The python code implements Block Identification of the headings which are considered to be
+capitalized. Font size of different sections or keyword based on requirement extraction techniques
+can also be used for block identification. Resumes can be structured in different formats. One such
+format is being extracted for this work. The techniques described above deals with extraction of
+different heading strctures. The content extraction function remains the same for every apporach.
+The e-mails and phone numbers are also extracted using regular expression.
+
+Prototype for block identification based on capitalized headings is given below. The python code for
+the same is attached with the document.
